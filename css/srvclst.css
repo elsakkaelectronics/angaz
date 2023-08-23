@@ -1,0 +1,88 @@
+.navbar{
+    background-color: white!important;
+    height: 100px;
+    display: flex;
+    box-sizing: unset;
+}
+.container-fluid{
+    height: 100px;
+}
+section{
+    height: 60vh;
+}
+.navbar img{
+    height: 100px;
+}
+.row div{
+  background-color: rgba(248,249,251,255);
+  border: 1px outset black;
+}
+.row{
+    margin: 0px;
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid{
+    column-gap: 6px;
+    row-gap: 6px;
+    padding: 10px;
+    height: min-content;
+    max-height: 100vh;
+}
+.grid div{
+    max-height: 25vh;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width:600px){
+    .grid{
+        display: block!important;
+    }
+    .container{
+        padding-left: 0px!important;
+        font-size: 10px;
+    }
+    .mobilenavbar{
+        height: 100px;
+        width: 100vw;
+        position: sticky;
+        top: 100px;
+        background-color: white;
+        z-index: 10;
+    }
+    .grid{
+        height: 100vh!important;
+    }
+    .container{
+        position: sticky;
+        top: 200px;
+    }
+    .container div{
+        position: relative;
+        width: 8vw;
+    }
+    .container div :first-of-type{
+        top: 0px;
+    }
+    .srvcprvew{
+        width: 100%!important;
+}
+.imgprvew{
+    width: 100%!important;
+}
+.bar{
+    width: 100%!important;
+}
+.user{
+    width: 60px!important;
+}
+.description{
+    width: 60%!important;
+}
+.price{
+    width: 20%!important;
+}
+}   

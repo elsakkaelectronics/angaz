@@ -1,0 +1,97 @@
+html{
+}
+.bigscreen-card{
+height: 86%;
+width: 100px;
+min-width: 600px;
+background-color: white;
+margin:6px;
+margin-top: calc((100% - 86%) / 2);
+margin-bottom: 0px;
+display: flex;
+border: 1px outset black;
+flex-direction: column;
+}
+.bigscreen-card:first-of-type{
+margin-left: calc((100% - (52px + 80%)) / 2);
+display: flex;
+}
+@media only screen and (max-width:600px){
+    .section {
+        display: flex!important;
+        overflow: hidden;
+    }
+    .bigscreen-card{
+        width: 98%!important;
+        min-width: 89vw;
+        height: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bigscreen-card:first-of-type{
+        margin-left: auto;
+        }
+        .section {
+            width:100vw;
+        }
+        .next{
+            /* visibility: collapse; */
+            width: 0px!important
+        }
+        .pre{
+            visibility: collapse;
+            width: 0px!important
+        }
+        .bigscreen-scroll{
+            display: block!important;
+            height: 60vh;
+        }
+        .bigscreen-card p{
+            font-size: 6vw!important;
+            margin-top: 100%!important
+        }
+        .bigscreen-card p{
+            margin-top: 0px!important;
+        }
+}
+.bigscreen-card p{
+    font-size: 6em;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section img{
+    height: 40vh
+}
+.navbar{
+    height: 100px;
+    display: flex;
+    box-sizing: unset;
+}
+.navbar img{
+    height: 100px;
+}
+.navbar-toggler{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.container-fluid{
+    height: 100px;
+}
+.fa-cart-shopping{
+    position: relative;
+    margin-left: 260px;
+}
+.bigscreen-card:hover{
+    background-color: cyan;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a div{
+    height: 40%;
+}
+.bigscreen-card a{
+    height: 40%;
+}
